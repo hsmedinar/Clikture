@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:orientation="vertical" android:layout_gravity="top|center_horizontal" android:background="@drawable/clikture_screen_vert_inside">
+	<LinearLayout android:id="@+id/linearLayout2" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="100dip">
+        <ImageView android:layout_marginLeft="12dip" android:layout_width="180dip" android:id="@+id/brandimg" android:layout_height="90dip" android:layout_marginTop="24dip"></ImageView>
+    </LinearLayout>
+	<LinearLayout android:layout_alignParentTop="true" android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_marginTop="55dip">
+		<TextView android:layout_height="wrap_content" android:id="@+id/email_t" android:layout_width="wrap_content" android:layout_marginLeft="55dip" android:textColor="@color/gray_dark" android:text="@string/Email"></TextView>
+		<EditText android:inputType="textEmailAddress" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="50" android:layout_marginLeft="35dip" android:id="@+id/loginuser" android:layout_marginRight="35dip" android:layout_width="fill_parent"></EditText>
+	</LinearLayout>
+	<LinearLayout android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:id="@+id/linearLayout2">
+		<TextView android:layout_height="wrap_content" android:text="@string/Password" android:id="@+id/pass_t" android:layout_width="wrap_content" android:layout_marginLeft="55dip" android:textColor="@color/gray_dark"></TextView>
+		<EditText android:layout_height="wrap_content" android:id="@+id/pass" android:singleLine="true" android:layout_marginLeft="10dip" android:maxLength="10" android:password="true" android:layout_marginRight="35dip" android:layout_width="155dip"></EditText>
+	
+	
+	</LinearLayout>
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		@+id/movil_t
+
+		
+		<CheckBox android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/remember"
+			android:layout_below="@+id/pass_t" android:layout_centerHorizontal="true"
+			android:layout_marginTop="10dip" android:text="@string/Remember_Login"
+			android:checked="true" android:textColor="@color/gray_dark"></CheckBox>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/login"
+			android:text="@string/Login" android:layout_marginLeft="80dip"
+			android:layout_below="@+id/remember" android:layout_marginTop="10dip"></Button>
+
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignBaseline="@+id/login"
+			android:layout_toRightOf="@+id/login" android:text="@string/New_user"
+			android:layout_marginLeft="40dip" android:id="@+id/new_user"></Button>
+		
+		
+
+	</RelativeLayout>
+</LinearLayout>

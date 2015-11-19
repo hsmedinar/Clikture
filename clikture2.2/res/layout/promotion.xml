@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:gravity="center_horizontal" android:background="@drawable/clikture_screen_vert" android:orientation="vertical">
+	<LinearLayout android:id="@+id/linearLayout2" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="100dip">
+        <ImageView android:layout_marginLeft="12dip" android:layout_width="180dip" android:id="@+id/brandimg" android:layout_height="90dip" android:layout_marginTop="24dip"></ImageView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout4" android:orientation="vertical" android:layout_width="fill_parent">
+        <ScrollView android:layout_marginLeft="55dip" android:layout_height="330dip" android:id="@+id/scrollView1" android:layout_width="260dip" android:layout_marginTop="15dip">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/content" android:orientation="vertical">
+                <HorizontalScrollView android:layout_height="wrap_content" android:id="@+id/row1" android:layout_width="fill_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:id="@+id/linearLayout3" android:layout_height="match_parent" android:layout_width="fill_parent" android:orientation="vertical">
+                        <LinearLayout android:gravity="center_horizontal" android:layout_height="match_parent" android:id="@+id/linearLayout1" android:layout_marginTop="15dip" android:layout_width="fill_parent">
+                            <TableLayout android:layout_marginLeft="20dip" android:layout_height="wrap_content" android:id="@+id/tgroup1" android:layout_width="wrap_content"></TableLayout>
+                            <TableLayout android:layout_marginLeft="40dip" android:layout_height="wrap_content" android:id="@+id/tgroup2" android:layout_width="wrap_content"></TableLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <HorizontalScrollView android:layout_height="wrap_content" android:id="@+id/row1" android:layout_width="fill_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:id="@+id/linearLayout3" android:layout_height="match_parent" android:layout_width="fill_parent" android:orientation="vertical">
+                        <LinearLayout android:gravity="center_horizontal" android:layout_height="match_parent" android:id="@+id/linearLayout1" android:layout_marginTop="15dip" android:layout_width="fill_parent">
+                            <TableLayout android:layout_marginLeft="20dip" android:layout_height="wrap_content" android:id="@+id/tgroup3" android:visibility="gone" android:layout_width="wrap_content"></TableLayout>
+                            <TableLayout android:layout_marginLeft="40dip" android:layout_height="wrap_content" android:id="@+id/tgroup4" android:visibility="gone" android:layout_width="wrap_content"></TableLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <HorizontalScrollView android:layout_height="wrap_content" android:id="@+id/row1" android:layout_width="fill_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:id="@+id/linearLayout3" android:layout_height="match_parent" android:layout_width="fill_parent" android:orientation="vertical">
+                        <LinearLayout android:gravity="center_horizontal" android:layout_height="match_parent" android:id="@+id/linearLayout1" android:layout_marginTop="15dip" android:layout_width="fill_parent">
+                            <TableLayout android:layout_marginLeft="20dip" android:layout_height="wrap_content" android:id="@+id/tgroup5" android:visibility="gone" android:layout_width="wrap_content"></TableLayout>
+                            <TableLayout android:layout_marginLeft="40dip" android:layout_height="wrap_content" android:id="@+id/tgroup6" android:visibility="gone" android:layout_width="wrap_content"></TableLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <HorizontalScrollView android:layout_height="wrap_content" android:id="@+id/row1" android:layout_width="fill_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:id="@+id/linearLayout3" android:layout_height="match_parent" android:layout_width="fill_parent" android:orientation="vertical">
+                        <LinearLayout android:gravity="center_horizontal" android:layout_height="match_parent" android:id="@+id/linearLayout1" android:layout_marginTop="15dip" android:layout_width="fill_parent">
+                            <TableLayout android:layout_marginLeft="20dip" android:layout_height="wrap_content" android:id="@+id/tgroup7" android:visibility="gone" android:layout_width="wrap_content"></TableLayout>
+                            <TableLayout android:layout_marginLeft="40dip" android:layout_height="wrap_content" android:id="@+id/tgroup8" android:visibility="gone" android:layout_width="wrap_content"></TableLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <HorizontalScrollView android:layout_height="wrap_content" android:id="@+id/row1" android:layout_width="fill_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:id="@+id/linearLayout3" android:layout_height="match_parent" android:layout_width="fill_parent" android:orientation="vertical">
+                        <LinearLayout android:gravity="center_horizontal" android:layout_height="match_parent" android:id="@+id/linearLayout1" android:layout_marginTop="15dip" android:layout_width="fill_parent">
+                            <TableLayout android:layout_marginLeft="20dip" android:layout_height="wrap_content" android:id="@+id/tgroup9" android:visibility="gone" android:layout_width="wrap_content"></TableLayout>
+                            <TableLayout android:layout_marginLeft="40dip" android:layout_height="wrap_content" android:id="@+id/tgroup10" android:visibility="gone" android:layout_width="wrap_content"></TableLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <HorizontalScrollView android:layout_height="wrap_content" android:id="@+id/row1" android:layout_width="fill_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:id="@+id/linearLayout3" android:layout_height="match_parent" android:layout_width="fill_parent" android:orientation="vertical">
+                        <LinearLayout android:gravity="center_horizontal" android:layout_height="match_parent" android:id="@+id/linearLayout1" android:layout_marginTop="15dip" android:layout_width="fill_parent">
+                            <TableLayout android:layout_marginLeft="20dip" android:layout_height="wrap_content" android:id="@+id/tgroup11" android:visibility="gone" android:layout_width="wrap_content"></TableLayout>
+                            <TableLayout android:layout_marginLeft="40dip" android:layout_height="wrap_content" android:id="@+id/tgroup12" android:visibility="gone" android:layout_width="wrap_content"></TableLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <HorizontalScrollView android:layout_height="wrap_content" android:id="@+id/row1" android:layout_width="fill_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:id="@+id/linearLayout3" android:layout_height="match_parent" android:layout_width="fill_parent" android:orientation="vertical">
+                        <LinearLayout android:gravity="center_horizontal" android:layout_height="match_parent" android:id="@+id/linearLayout1" android:layout_marginTop="15dip" android:layout_width="fill_parent">
+                            <TableLayout android:layout_marginLeft="20dip" android:layout_height="wrap_content" android:id="@+id/tgroup13" android:visibility="gone" android:layout_width="wrap_content"></TableLayout>
+                            <TableLayout android:layout_marginLeft="40dip" android:layout_height="wrap_content" android:id="@+id/tgroup14" android:visibility="gone" android:layout_width="wrap_content"></TableLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

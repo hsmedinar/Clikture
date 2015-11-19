@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="StyleCampaing">
+        <item name="android:textColor">#F6921D</item>
+        <item name="android:textSize">19dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="data_recived">This data has been received from the API</string>
+	<string name="Save">Save</string>
+	<string name="Telephone_Number">Telephone Number:</string>
+	<string name="Remember_Login">Remember Login</string>
+	<string name="Discard">Discard</string>
+	<string name="Cancel">Cancel</string>
+	<string name="New_Image">New Image</string>
+	<string name="New_user">New user</string>
+	<string name="Login">Login</string>
+	<string name="Submit">Submit</string>
+	<string name="Password">Password:</string>
+	<string name="Movil">Mobile</string>
+	<string name="Email">Email:</string>
+	<string name="hello">Hello World, StartActivity!</string>
+	<string name="app_name">Clikture</string>
+
+	<string name="Uploading_Image">Uploading Image</string>
+	<string name="Database_onCreate">&quot;
+		CREATE TABLE image(path TEXT,date TEXT,latitude TEXT,longitude TEXT);
+ 		&quot;
+
+	</string><string name="Upload_Key">pa6Huv9ce9RaQa2asTuX</string>
+
+	
+
+	<color name="blue">#0000ff</color>
+	<color name="white">#ffffff</color>
+	<color name="black">#000000</color>
+	<color name="gray_lite">#e0e0e0</color>
+	<color name="gray_dark">#272727</color>
+	<color name="gray">#5c5b6d</color>
+	<color name="blue_dark">#576996</color>
+	<color name="green">#bbd770</color>
+	<color name="green_dark">#5f7628</color>
+	<color name="yellow_lite">#f2f7d5</color>
+	<color name="yellow_dark">#7e8b19</color>
+	<string name="Repassword">Confirm Password:</string>
+	<string name="Userlogin">Login:</string>
+	<string name="back">Back Image</string>
+	<string name="capture">Capture</string>
+	<color name="narange">#F6921D</color>
+	<string name="defaultimage">YUKON</string>
+</resources>

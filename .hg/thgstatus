@@ -1,0 +1,15 @@
+mclikture2.2
+mclikture2.2/bin
+mclikture2.2/bin/com/abyte/piclt2
+mclikture2.2/bin/com/abyte/piclt2/api
+mclikture2.2/bin/com/abyte/piclt2/ui
+mclikture2.2/bin/com/abyte/xmlrpcservices
+mclikture2.2/bin/org/xmlrpc/android
+mclikture2.2/gen/com/abyte/piclt2
+mclikture2.2/res/values
+mclikture2.2/src/com/abyte/piclt2
+mclikture2.2/src/com/abyte/piclt2/api
+mclikture2.2/src/com/abyte/piclt2/ui
+mclikture2.2/src/com/abyte/xmlrpcservices
+mclikture2.2/src/org/xmlrpc/android
+mclikture2.3/src/com/abyte/piclt2/ui
